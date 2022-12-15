@@ -1,0 +1,50 @@
+.why__main{
+    @apply flex   justify-center w-[100%]
+}
+.why__header{
+    @apply font-bold text-4xl
+}
+.Icon__header{
+    @apply text-xl font-bold
+} 
+.blueSide__img{
+    border-radius: 50%;
+    @apply w-[58px] h-[40px] 
+
+}
+
+.blue__side{
+    @apply w-[50%]  bg-blue-800 p-12 text-white
+}
+.image__side{
+   @apply w-[50%] h-auto
+}
+
+@media(max-width:900px){
+
+    .why__header{
+        @apply font-bold text-2xl
+    }
+    .blueSide__img{
+        border-radius: 50%;
+        @apply w-[58px] h-[30px] 
+    
+    }
+    .why__main{
+        @apply flex-wrap flex-col
+    }
+
+    .Icon__header{
+        @apply text-sm
+    } 
+
+
+    .blue__side{
+        @apply w-[100%]  
+    }
+
+    .image__side{
+        @apply w-[100%] 
+     }
+     
+}

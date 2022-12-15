@@ -1,0 +1,85 @@
+.main__form{
+    
+    background: url('D:/YOGA/yoga/portfolio/src/images/y14.jpg');
+    z-index: -1; 
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+  
+    opacity: 0.7;
+}
+
+.inner__form__div{
+
+    @apply  ml-[700px]
+}
+.book{
+    @apply text-xl  p-4 font-bold
+}
+.inputFeild{
+    width: 280px;
+    @apply font-normal text-sm  outline-none
+
+}
+.text-aria{
+    @apply mt-3 w-[573px] font-normal text-sm p-2 h-[90px] outline-none
+}
+.form__btn{
+    /* padding: 1px 2px 1px 2px;
+     */
+     @apply pl-3 pt-2 pr-3 pb-2 mt-4 rounded-sm text-sm font-bold text-white
+}
+.book__underLine{
+    @apply w-12 h-1 bg-pink-600 rounded-md
+}
+
+.icons__section{
+    @apply flex  justify-center mt-6 bg-pink-600 p-10 w-[100%]
+}
+
+.icons{
+    @apply text-3xl text-white m-auto
+}
+.icons__text{
+    @apply text-white text-2xl pt-2 font-bold
+}
+.icons__heading{
+    @apply text-white text-sm font-bold pt-2
+
+}
+
+
+@media(max-width:900px){
+
+    .main__form{
+       
+        width: 100%;
+        height: 350px;
+      
+    }
+    .inner__form__div{
+
+        @apply  ml-[33px] mt-12
+    }
+    .inputFeild{
+        
+        @apply font-normal text-sm w-[130px] h-6 rounded outline-none
+    
+    }
+    .text-aria{
+        @apply mt-3 w-[273px]  rounded h-[50px] 
+    }
+
+    .book{
+        @apply  p-2 font-bold
+    }
+
+    .icons__section{
+        @apply p-5 flex-wrap
+    }
+    
+    .icons{
+        @apply text-xl text-white m-auto
+    }
+}

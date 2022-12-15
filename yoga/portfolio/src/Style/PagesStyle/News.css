@@ -1,0 +1,37 @@
+.News__header{
+    @apply  text-center mt-10 p-5
+}
+.see__recent{
+    @apply text-gray-500 font-bold
+}
+.Lates__news{
+    @apply text-3xl font-bold text-gray-800 
+}
+
+.NewsCard{
+    @apply flex justify-center gap-4 mt-5 p-6
+}
+.Cards{
+    @apply w-[350px] h-[230px] p-4
+}
+.Card__images{
+    @apply w-[350px] h-[230px]
+}
+.Card__header{
+    @apply text-xl font-bold text-start text-pink-600 p-3
+}
+.Card__para{
+    @apply text-sm
+}
+.Card__date{
+    @apply text-sm text-gray-600 p-2
+}
+
+@media (max-width:900px){
+    .NewsCard{
+        @apply   flex flex-wrap 
+    }
+    .Cards{
+        @apply w-[350px] h-[380px] p-4
+    }
+}

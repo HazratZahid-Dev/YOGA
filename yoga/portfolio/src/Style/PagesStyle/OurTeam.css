@@ -1,0 +1,17 @@
+.our__team{
+    @apply text-xl
+}
+.team__member{
+    @apply text-3xl font-bold
+}
+
+@media(max-width:900px){
+    .our__team{
+        @apply text-sm font-bold
+    }
+
+    .team__member{
+        @apply text-xl font-bold
+    }
+
+}

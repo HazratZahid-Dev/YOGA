@@ -1,0 +1,14 @@
+.second__btn{
+    border-radius: 50%;
+}
+.Card__header{
+    @apply font-bold
+}
+
+
+@media(max-width:900px){
+    .Card__header{
+        @apply  text-sm
+    }
+  
+}

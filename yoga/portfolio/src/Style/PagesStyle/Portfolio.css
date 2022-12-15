@@ -1,0 +1,193 @@
+
+.port__First__part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Port__left{
+    width: 50%;
+    height: 60vh;
+    color: white;
+    background: #000;
+    padding: 40px 30px 20px 40px;
+    
+}
+.left__btn{
+    background-color: red;
+    padding: 10px 15px 10px 15px ;
+    border-radius: 5px 20px 5px 20px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    box-shadow: rgb(38, 2, 2) 0px 5px 15px;
+    margin-top: 30px;
+}
+.port__left__heading{
+    font-size: 35px;
+    font-weight: bold;
+}
+.port__left__para{
+    line-height: 26px;
+    margin-top: 5px;
+    letter-spacing: 1px;
+    color: gray;
+}
+.We{
+    color: orangered;
+}
+.right__text{
+    font-size: 30px;
+    opacity:initial;
+}
+.port__right{
+    width: 50%;
+    height: 60vh;
+    background: url('D:/PortFolio/portfolio/src/images/p11.webp'); 
+    background-position: center;
+    background-size: cover; 
+    /* opacity: 0.9; */
+    color: white;
+    
+   
+
+
+}
+.img__right{
+    width: 100%;
+    height: 60vh;
+    
+}
+
+.port__main{
+     width: 100vw; 
+    margin: auto;
+    justify-content: center;
+    padding: 10px;
+    background: black;
+    /* justify-items: center; */
+    justify-content: center;
+    display: flex;
+}
+
+.port__top{
+    text-align: center;
+    font-weight: bold;
+    font-family:  'Lucida Sans Regular';
+    font-size: 33px;
+    color: orangered;
+    padding: 10px 0px 0px 0px;
+    letter-spacing: 2px;
+
+}
+.port__top__para{
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+    color: gray;
+
+}
+
+.port__card{
+    /* display: flex; */
+    /* border: 2px solid green; */
+    width: 25%;
+     /* height: 60vh;  */
+    /* padding: 20px; */
+     align-items: center; 
+    border-radius: 20px;
+    box-shadow: rgb(38, 2, 2) 0px 5px 10px;
+    border: 1px solid gray;
+    text-align: center;
+  
+    margin-top: 20px;
+}
+.port__card:hover{
+    transform: scale(1.03);
+    transition: 0.5s;
+    
+}
+.card__img{
+    width: 100%;
+    height: 350px; 
+     border-radius: 20px 20px 0px 0px; 
+  
+   
+}
+.card__heading{
+    font-size: 19px;
+    color: orangered;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.card__para{
+    font-size: 15px;
+   padding: 10px;
+   color: gray;
+    font-weight: 600;
+}
+
+
+@media(max-width:900px){
+    .port__First__part{
+        flex-direction: column;
+        justify-items: center;
+        /* justify-content: center; */
+    }
+
+    .Port__left{
+        width: 100%;
+        height: 37vh;
+        text-align: justify;
+       
+        padding: 30px 20px 20px 20px;
+        
+    }
+
+    .left__btn{
+       
+        padding: 3px 4px 3px 4px ;
+        letter-spacing: 1px;
+        margin-top: 15px;
+        border-radius: 5px;
+        font-size: 12px;
+    }
+    .port__left__heading{
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .port__left__para{
+        line-height: 20px;
+        margin-top: 5px;
+        letter-spacing: 1px;
+        color: gray;
+        font-size: 13px;
+        text-align:justify;
+    }
+
+    .port__right{
+        width: 100%;
+    }
+    .port__main{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .port__card{
+        
+        width: 75%;
+       
+       
+      
+        
+    
+        
+     
+        margin-top: 20px;
+    }
+
+}

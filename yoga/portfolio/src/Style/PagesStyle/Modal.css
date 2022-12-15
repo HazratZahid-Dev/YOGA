@@ -1,0 +1,47 @@
+.Modal{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: grey;
+    opacity: 0.8;
+    /* position: relative; */
+}
+
+.Modal__inner{
+    width: 600px ;
+    height: 600px;
+    background:white;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 4px;
+     position: relative; 
+}
+.btn__div{
+    width: 600px ;
+    text-align: right;
+    /* background:rgb(129, 81, 81); */
+    height: 20px;
+    position: absolute;
+
+}
+.cross__btn{
+    position: absolute;
+   margin: auto;
+ 
+   right: 10px;
+   top: 10px;
+
+
+    font-size: 24px;
+    color: #000;
+
+
+}
+.Modal__btn{
+    width: 40px;
+    height: 40px;
+    /* background: black; */
+    justify-content: center;
+}

@@ -1,0 +1,46 @@
+.Popular__card{
+    @apply flex flex-wrap justify-center w-auto m-auto mt-6  
+}
+.day__month{
+    @apply w-auto  mr-48
+}
+.day{
+    @apply mt-12 font-bold text-3xl text-pink-500
+}
+.Popular__Card__image{
+    @apply w-[150px] mt-3 h-[172px] 
+}
+.Popular__header{
+    @apply font-bold text-2xl 
+}
+.Popular__para{
+    @apply  p-0 text-gray-600  mt-2 w-[360px]
+}
+.view__btn{
+    @apply bg-green-700 mt-3 px-5 py-1 text-white rounded-sm
+}
+
+@media(max-width:900px){
+    .Popular__card{
+        @apply  flex-wrap  w-auto justify-center 
+    }
+    .day__month{
+        @apply w-auto  mr-16
+    }
+    .Popular__Card__image{
+        @apply w-[130px] mt-3 h-[142px] 
+    }
+    .day{
+        @apply mt-12 text-sm text-2xl 
+    }
+    .Popular__header{
+        @apply text-xl 
+    }
+    .Popular__para{
+        @apply  p-0 text-gray-600  mt-2 w-[250px] text-sm
+    }
+    .view__btn{
+        @apply  mt-3 px-3 py-1 text-sm
+    }
+
+}

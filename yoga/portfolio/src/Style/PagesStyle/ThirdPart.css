@@ -1,0 +1,23 @@
+.thirdPartPara {
+    font-weight: bold;
+}
+.welcome{
+    @apply text-4xl font-bold
+}
+.welcome__part{
+    @apply flex gap-10 mt-7
+}
+
+
+
+@media(max-width:900px){
+    .welcome{
+        @apply text-xl
+    }
+    .welcome__part{
+        @apply flex-wrap
+    }
+    .welcome__para{
+        @apply ml-4
+    }
+}

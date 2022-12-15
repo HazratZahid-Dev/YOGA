@@ -1,0 +1,7 @@
+.Our__services{
+    @apply text-xl font-bold text-gray-500
+}
+.our__area{
+    @apply text-3xl font-bold
+
+}

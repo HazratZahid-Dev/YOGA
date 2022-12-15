@@ -1,0 +1,31 @@
+.main__partner{
+    @apply mt-48
+}
+
+.Partner__heading{
+    @apply text-center p-10
+}
+.partner__heading{
+    @apply text-3xl font-bold
+}
+.partner__secondheading{
+    @apply tracking-wide
+}
+.icon__part{
+    @apply justify-center text-center flex gap-20 pt-3 pb-14
+}
+.part__one{
+    @apply w-[200px] text-center
+}
+.second__partIcons{
+    @apply m-auto text-4xl text-pink-600
+}
+
+@media (max-width:900px){
+    .icon__part{
+        @apply flex-wrap   gap-20 p-5
+    }
+    .main__partner{
+        @apply mt-12
+    }
+}
