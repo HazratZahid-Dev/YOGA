@@ -8,7 +8,7 @@ import Home from './Pages/Home';
 import About from './Pages/About';
 import Portfolio from './Pages/Portfolio';
 // import Services from './Pages/Services';
-import Skill from './Pages/Skill';
+import Otawix from './Pages/Otawix';
 import Process from './Pages/Process';
 import MainServices from './Pages/MainServices';
 import TopNav from './Compunents/TopNav';
@@ -32,7 +32,7 @@ function App() {
         
             <Route path='/MainServices' element={<MainServices/>} />
           
-          <Route path="/Skill" element={<Skill/>} />
+          <Route path="/skill" element={<Otawix/>} />
           <Route path="/Process" element={<Process/>} />
        
       

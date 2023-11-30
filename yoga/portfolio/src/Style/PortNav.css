@@ -118,7 +118,7 @@
         gap: 50px;
         padding-top: 20px;
         text-align: center;
-        transition: .5s ease-in-out;
+        transition: 0.5s ease-in-out;
         color: white;
     }
     .menu.active{

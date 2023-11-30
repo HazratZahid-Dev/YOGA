@@ -24,7 +24,7 @@ const NavBar = () => {
         <li><Link to="/Portfolio" onClick={() => seticon(!icon)}>  About</Link></li>
         <li><Link to="/MainServices" onClick={() => seticon(!icon)}>Services</Link></li>
       
-        <li><Link to="/Skill" onClick={() => seticon(!icon)}> Why Choose US </Link></li>
+        <li><Link to="/Skill" onClick={() => seticon(!icon)}> Otawix Solution</Link></li>
         <li><Link to="/Process" onClick={() => seticon(!icon)}>Team</Link></li>
         <li><Link to="/Events" onClick={() => seticon(!icon)}>Events</Link></li>
         
